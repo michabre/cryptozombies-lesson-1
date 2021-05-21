@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Lato&display=swap");
+
+html,
+body {
+  height: 100%;
+  background-color: #e7ffe7;
+  font-family: "Lato", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Bungee", cursive;
+}
+/* Lists */
+.content ul.list-style-none {
+  list-style: none;
+  margin-left: 0;
+}
+/* Bulma Overrides */
+.box {
+  background-color: #fefefe;
+  box-shadow: 0 0.5em 1em -0.125em rgba(19, 123, 19, 0.1),
+    0 0 0 1px rgba(19, 123, 19, 0.2);
+}

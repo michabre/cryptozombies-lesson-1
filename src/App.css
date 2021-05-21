@@ -1,0 +1,10 @@
+.App {
+  text-align: center;
+}
+
+.topbar {
+  background-color: #000;
+  color: #cecece;
+  text-align: left;
+  height: 20px;
+}
